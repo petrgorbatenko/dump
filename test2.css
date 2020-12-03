@@ -1,0 +1,143 @@
+/*a {
+    color:green;
+    font-size: 21px;
+}*/
+a {
+    color: rgba(196, 89, 89, 0.26);
+}
+#Moya_ssylka {
+    color: lime;
+}
+#Moya_ssylka:hover {
+    background: #323232;
+}
+#test_ssylka {
+    font-size: 25px;
+    color:#8737FF;
+}
+#test_ssylka:hover {
+    font-size: 30px;
+}
+#content {
+color: #8737FF;
+background-color: aquamarine;
+border: 1px solid #FFFFFF;
+margin: 15px;
+padding: 10px;
+width: 700px;
+height: 200px;
+position: relative;
+}
+#content:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+.insert {
+    color: black;
+    background-color: blanchedalmond;
+    border: 1px solid #323232;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+}
+.insert:hover {
+    box-shadow: -5px 5px 7px #323232;
+    background-color: #8737FF;
+    opacity: 0.7;
+    font-weight: 800;
+    transition-delay: 2ms;
+
+}
+.human {
+    color: black;
+}
+.animal {
+    
+}
+.lion {
+    color: orange;
+}
+.monkey {
+    color: orangered;
+}
+.tiger {
+    color: paleturquoise;
+}
+.message {
+    color: red;
+    background-color: #E4E4E4;
+    border: 1px solid #323232;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+
+}
+.success {
+    background-color: #19F15F;
+    color: #FFFFFF;
+    margin-left: 530px;
+    margin-right: 530px;
+    box-shadow: -5px 5px 18px #323232
+}
+.fail {
+    background-color: red;
+    color: royalblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 600px;
+    opacity: 0.5;
+}
+.info {
+    background-color: skyblue;
+    color: teal;
+    display: none;
+}
+.warning {
+    background: tomato;
+    color: teal;
+    transform: rotate(-90deg) scale(0.7);
+}
+.message:hover {
+    border: 5px solid#323232;
+    border-color: black;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.5);
+}
+a:hover {
+    color: yellow;
+}
+.test {
+    background-color: #8737FF;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: 5px dashed red;
+    border-radius: 5px;
+    background-image: url(images/asses.jpg);
+}
+.test:hover {
+    color: coral;
+    border: 7px solid #323232;
+}
+body {
+    background-color: rgba(0,0,0,0.5);
+}
+.zhopa {
+    background-color: royalblue;
+    border: 2px solid #323232;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+.zhopa:hover {
+    transform: rotateY(30deg);
+    transition: 1s;
+}
